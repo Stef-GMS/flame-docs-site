@@ -1,10 +1,14 @@
+@import url('/fonts/OpenDyslexic3-Bold.ttf');
+@import url('/fonts/OpenDyslexic3-Regular.ttf');
+@import url('/fonts/OpenDyslexicMono-Regular.otf');
+
 
 :root {
   --document-width: 900px;
   --document-x-margin: clamp(10px, 2.5vw, 30px);
   --document-padding: min(40px, 4vw);
-  --font-sans: 'Ubuntu', Roboto, Helvetica Neue, Arial, sans-serif;
-  --font-mono: "SF Mono", Menlo, monospace;
+  --font-sans: 'OpenDyslexic3';
+  --font-mono: 'OpenDyslexicMono';
   --font-awesome: 'Font Awesome 5 Solid';
   --highlight-color: 255, 233, 92;
   --left-menu-width: clamp(250px, 25vw, 330px);
